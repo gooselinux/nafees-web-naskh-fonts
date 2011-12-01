@@ -1,0 +1,11 @@
+#!/usr/bin/fontforge 
+
+
+fontfile = $1
+Open(fontfile)
+
+SetTTFName(0x409, 16, 'Nafees Web Naskh')
+
+Generate('NafeesWeb.ttf')
+Close()
+
